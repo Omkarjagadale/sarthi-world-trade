@@ -53,16 +53,14 @@ nav a{
     align-items:center;
     padding:30px 20px;
     background:#0b5d3b;
-    color:white;
 }
 
 .stat-box{
-    background:white;
-    padding:30px;
-    width:220px;
-    border-radius:12px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.08);
     text-align:center;
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    width:180px;
 }
 
 .stat-box h2{
@@ -72,8 +70,9 @@ nav a{
 }
 
 .stat-box p{
+    color:#0b5d3b;
+    font-weight:bold;
     margin-top:10px;
-    color:white;
 }
 
 .about{
