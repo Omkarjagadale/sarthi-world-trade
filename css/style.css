@@ -258,3 +258,10 @@ footer{
     font-weight:bold;
     color:#0b5d3b;
 }
+
+.market-grid div:hover,
+.features div:hover,
+.product-card:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
