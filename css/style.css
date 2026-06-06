@@ -282,6 +282,6 @@ footer{
 .market-grid div:hover,
 .features div:hover,
 .product-card:hover{
-    transform: translateY(-5px);
+    transform: translateY(-8px);
     transition: 0.3s;
 }
