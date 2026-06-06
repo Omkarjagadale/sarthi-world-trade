@@ -209,8 +209,8 @@ nav a{
 
 .product-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
 }
 
 .product-card{
@@ -218,15 +218,19 @@ nav a{
     border-radius:10px;
     overflow:hidden;
     box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
 }
 
 .product-card img{
     width:100%;
-    height:220px;
+    height:250px;
     object-fit:cover;
+    display:block;
 }
 
 .product-card h3{
     padding:15px;
     color:#006b3c;
+    font-size:28px;
+    margin:0;
 }
