@@ -240,16 +240,14 @@ nav a{
 .about-box{
     flex:1;
     max-width:650px;
-    margin-left:120px;
+    margin-right:auto;
+    margin-left:0;
 }
 
 .why-box{
     flex:1;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    padding-left:80px;
-    margin-left:120px;
+    max-width:500px;
+    margin-left:auto;
 }
 
 .about-box h2,
