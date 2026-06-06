@@ -231,18 +231,24 @@ nav a{
 .about-why{
     display:flex;
     justify-content:space-between;
-    align-items:center;
-    gap:100px;
+    align-items:center;   /* centers both sections vertically */
+    gap:80px;
     padding:80px 8%;
-    
+    max-width:1400px;
+    margin:auto;
 }
 
 .about-box{
-    flex:1.2;
+    flex:1;
+    max-width:550px;
 }
 
 .why-box{
-    padding-left:30px;
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-left:80px;
 }
 
 .about-box h2,
@@ -260,8 +266,8 @@ nav a{
 
 .about-divider{
     width:1px;
+    height:240px;         /* taller divider */
     background:#d8d8d8;
-    min-height:250px;
 }
 
 .why-box ul{
@@ -277,7 +283,7 @@ nav a{
 
 .read-btn{
     display:inline-block;
-    background:#d4a017;
+    background:#0b5d3b;
     color:white;
     text-decoration:none;
     padding:12px 25px;
@@ -286,7 +292,7 @@ nav a{
 }
 
 .read-btn:hover{
-    background:#09472d;
+    background:#d4a017;
 }
 
 .features{
