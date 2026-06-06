@@ -126,3 +126,22 @@ nav a{
     font-weight:bold;
     border:2px solid #d4a017;
 }
+.about{
+    background:#0b5d3b;
+    color:white;
+    padding:80px 20px;
+    text-align:center;
+}
+
+.about h2{
+    color:#d4a017;
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.about p{
+    max-width:900px;
+    margin:15px auto;
+    font-size:18px;
+    line-height:1.8;
+}
