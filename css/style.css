@@ -108,17 +108,10 @@ nav a{
     min-height:650px;
     display:flex;
     align-items:center;
-    justify-content:center;
-    text-align:center;
+    justify-content:flex-start;
+    text-align:left;
     color:white;
     position:relative;
-}
-
-.hero-overlay{
-    background:rgba(0,0,0,0.65);
-    padding:40px;
-    border-radius:15px;
-    max-width:600px;
 }
 
 .hero h1{
@@ -135,7 +128,7 @@ nav a{
     display:flex;
     gap:30px;
     margin-top:30px;
-    padding-left:20px;
+    margin-left:20px;
 }
 
 .hero-btn{
