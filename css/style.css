@@ -72,3 +72,11 @@ nav a{
     background:transparent;
     border:2px solid white;
 }
+.top-bar{
+    background:#0b5d3b;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    padding:10px;
+    font-size:14px;
+}
