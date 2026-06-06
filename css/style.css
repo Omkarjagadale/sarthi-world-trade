@@ -231,16 +231,15 @@ nav a{
 .about-why{
     display:flex;
     justify-content:space-between;
-    align-items:center;   /* centers both sections vertically */
-    gap:80px;
-    padding:80px 8%;
-    max-width:1400px;
+    align-items:center;
+    padding:80px 5%;
+    max-width:1600px;
     margin:auto;
 }
 
 .about-box{
     flex:1;
-    max-width:550px;
+    max-width:650px;
 }
 
 .why-box{
@@ -266,8 +265,9 @@ nav a{
 
 .about-divider{
     width:1px;
-    height:240px;         /* taller divider */
+    height:220px;
     background:#d8d8d8;
+    margin:0 40px;
 }
 
 .why-box ul{
