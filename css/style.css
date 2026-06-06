@@ -187,6 +187,21 @@ nav a{
     padding:10px;
 }
 
+.more-products{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:320px;
+}
+
+.plus-sign{
+    font-size:80px;
+    color:#d4a017;
+    font-weight:bold;
+    line-height:1;
+}
+
 .why-us{
     padding:60px 20px;
     background:#f8f8f8;
