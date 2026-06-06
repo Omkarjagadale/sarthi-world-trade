@@ -230,22 +230,36 @@ nav a{
 
 .about-why{
     display:flex;
-    justify-content:center;
-    align-items:flex-start;
-    gap:50px;
-    padding:80px 10%;
+    justify-content:space-between;
+    align-items:center;
+    gap:80px;
+
+    padding:70px 8%;
+    margin:60px auto;
+
+    max-width:1300px;
+
     background:#ffffff;
+    border-radius:20px;
+
+    box-shadow:0 5px 25px rgba(0,0,0,0.08);
 }
 
-.about-box,
+.about-box{
+    flex:1.2;
+}
+
 .why-box{
     flex:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
 
 .about-box h2,
 .why-box h2{
     color:#0b5d3b;
-    font-size:30px;
+    font-size:36px;
     margin-bottom:25px;
 }
 
@@ -257,8 +271,12 @@ nav a{
 
 .about-divider{
     width:1px;
-    background:#ddd;
-    min-height:250px;
+    min-height:280px;
+    background:linear-gradient(
+        transparent,
+        #d4a017,
+        transparent
+    );
 }
 
 .why-box ul{
@@ -267,8 +285,8 @@ nav a{
 }
 
 .why-box li{
-    margin-bottom:15px;
-    font-size:18px;
+    margin-bottom:18px;
+    font-size:19px;
     color:#333;
 }
 
