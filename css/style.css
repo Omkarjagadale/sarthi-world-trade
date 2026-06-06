@@ -133,8 +133,32 @@ nav a{
 
 .hero-buttons{
     display:flex;
-    gap:15px;
+    gap:30px;
+    margin-top:30px;
+    padding-left:20px;
+}
+
+.hero-btn{
+    display:flex;
     justify-content:center;
+    align-items:center;
+
+    width:300px;
+    height:65px;
+
+    border:2px solid #d4a017;
+    border-radius:8px;
+
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:18px;
+
+    transition:0.3s;
+}
+
+.hero-btn:hover{
+    background:#d4a017;
 }
 
 .btn-primary{
