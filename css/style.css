@@ -88,35 +88,6 @@ nav a{
     background:rgba(255,255,255,.3);
 }
 
-.about{
-    background:#0b5d3b;
-    color:white;
-    padding:80px 20px;
-    text-align:center;
-}
-
-.about h2{
-    color:#d4a017;
-    font-size:42px;
-    margin-bottom:20px;
-}
-
-.about p{
-    max-width:900px;
-    margin:15px auto;
-    font-size:18px;
-    line-height:1.8;
-}
-
-.about .btn{
-    margin-top:20px;
-}
-
-.about-content{
-    max-width:1000px;
-    margin:auto;
-}
-
 .hero{
     background:url('../images/hero-banner.png');
     background-size:cover;
@@ -257,16 +228,62 @@ nav a{
     color:#006b3c;
 }
 
-.why-us{
-    padding:60px 20px;
-    background:#f8f8f8;
-    text-align:center;
+.about-why{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:50px;
+    padding:80px 10%;
+    background:#ffffff;
 }
 
-.why-us h2{
+.about-box,
+.why-box{
+    flex:1;
+}
+
+.about-box h2,
+.why-box h2{
     color:#0b5d3b;
-    font-size:42px;
-    margin-bottom:40px;
+    font-size:30px;
+    margin-bottom:25px;
+}
+
+.about-box p{
+    color:#444;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.about-divider{
+    width:1px;
+    background:#ddd;
+    min-height:250px;
+}
+
+.why-box ul{
+    list-style:none;
+    padding:0;
+}
+
+.why-box li{
+    margin-bottom:15px;
+    font-size:18px;
+    color:#333;
+}
+
+.read-btn{
+    display:inline-block;
+    background:#0b5d3b;
+    color:white;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:5px;
+    margin-top:10px;
+}
+
+.read-btn:hover{
+    background:#09472d;
 }
 
 .features{
