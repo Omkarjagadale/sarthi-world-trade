@@ -86,6 +86,16 @@ nav a{
     font-size:18px;
     line-height:1.8;
 }
+
+.about .btn{
+    margin-top:20px;
+}
+
+.about-content{
+    max-width:1000px;
+    margin:auto;
+}
+
 .hero{
     background:url('../images/hero-banner.png');
     background-size:cover;
