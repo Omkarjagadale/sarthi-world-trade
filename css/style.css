@@ -232,7 +232,7 @@ nav a{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:80px 5%;
+    padding:40px 5% 80px;
     max-width:1600px;
     margin:auto;
 }
@@ -245,9 +245,9 @@ nav a{
 }
 
 .why-box{
-    flex:1;
-    max-width:500px;
-    margin-left:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
 
 .about-box h2,
@@ -265,7 +265,7 @@ nav a{
 
 .about-divider{
     width:1px;
-    height:220px;
+    height:260px;
     background:#d8d8d8;
     margin:0 40px;
 }
