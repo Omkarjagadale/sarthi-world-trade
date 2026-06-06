@@ -1,8 +1,0 @@
-
-body{font-family:Arial,sans-serif;margin:0}
-header{background:#0b5d3b;padding:15px}
-header .container{display:flex;justify-content:space-between;align-items:center}
-.logo{height:70px}
-nav a{color:white;margin:0 10px;text-decoration:none}
-.hero{padding:100px 20px;text-align:center;background:#123;color:white}
-h1{color:#d4a017}
