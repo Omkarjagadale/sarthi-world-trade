@@ -232,9 +232,9 @@ nav a{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    gap:80px;
+    gap:100px;
 
-    padding:70px 8%;
+    padding:80px 8%;
     margin:60px auto;
 
     max-width:1300px;
@@ -250,10 +250,7 @@ nav a{
 }
 
 .why-box{
-    flex:1;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+    padding-left:30px;
 }
 
 .about-box h2,
@@ -271,12 +268,8 @@ nav a{
 
 .about-divider{
     width:1px;
-    min-height:280px;
-    background:linear-gradient(
-        transparent,
-        #d4a017,
-        transparent
-    );
+    background:#d8d8d8;
+    min-height:250px;
 }
 
 .why-box ul{
@@ -292,7 +285,7 @@ nav a{
 
 .read-btn{
     display:inline-block;
-    background:#0b5d3b;
+    background:#d4a017;
     color:white;
     text-decoration:none;
     padding:12px 25px;
