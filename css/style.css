@@ -241,6 +241,10 @@ nav a{
     color:#d4a017;
 }
 
+.more-card{
+    text-decoration:none;
+}
+
 .why-us{
     padding:60px 20px;
     background:#f8f8f8;
