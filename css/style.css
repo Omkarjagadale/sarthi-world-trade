@@ -80,3 +80,18 @@ nav a{
     padding:10px;
     font-size:14px;
 }
+.stats{
+    display:flex;
+    justify-content:space-around;
+    padding:50px;
+    background:#ffffff;
+}
+
+.stat-box{
+    text-align:center;
+}
+
+.stat-box h2{
+    color:#d4a017;
+    font-size:40px;
+}
