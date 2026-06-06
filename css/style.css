@@ -233,16 +233,8 @@ nav a{
     justify-content:space-between;
     align-items:center;
     gap:100px;
-
     padding:80px 8%;
-    margin:60px auto;
-
-    max-width:1300px;
-
-    background:#ffffff;
-    border-radius:20px;
-
-    box-shadow:0 5px 25px rgba(0,0,0,0.08);
+    
 }
 
 .about-box{
