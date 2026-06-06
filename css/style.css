@@ -245,9 +245,9 @@ nav a{
 }
 
 .why-box{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+    flex:1;
+    max-width:500px;
+    margin-left:auto;
 }
 
 .about-box h2,
