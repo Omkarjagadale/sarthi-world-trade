@@ -186,3 +186,33 @@ nav a{
     margin:15px 0 0 0;
     padding:10px;
 }
+
+.why-us{
+    padding:80px 20px;
+    background:#f8f8f8;
+    text-align:center;
+}
+
+.why-us h2{
+    color:#0b5d3b;
+    font-size:42px;
+    margin-bottom:40px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    max-width:1000px;
+    margin:auto;
+}
+
+.features div{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    font-size:20px;
+    font-weight:bold;
+    color:#0b5d3b;
+}
