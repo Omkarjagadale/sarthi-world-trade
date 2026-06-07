@@ -88,6 +88,38 @@ nav a{
     background:rgba(255,255,255,.3);
 }
 
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title span{
+    color:#2f4f3f;
+    font-size:15px;
+    font-weight:600;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    position:relative;
+}
+
+.section-title span::before,
+.section-title span::after{
+    content:"";
+    display:inline-block;
+    width:80px;
+    height:1px;
+    background:#d4a017;
+    vertical-align:middle;
+    margin:0 15px;
+}
+
+.section-title h2{
+    margin-top:10px;
+    color:#0b5d3b;
+    font-size:42px;
+    font-family:Georgia, serif;
+}
+
 .hero{
     background:url('../images/hero-banner.png');
     background-size:cover;
