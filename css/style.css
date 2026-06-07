@@ -428,12 +428,13 @@ nav a{
 .footer-box h3{
     color:#d4a017;
     margin-bottom:20px;
-    font-size:24px;
+    font-size:32px;
 }
 
 .footer-box p{
+    font-size:20px;
     line-height:1.8;
-    margin-bottom:10px;
+    margin-bottom:12px;
 }
 
 .footer-box a{
@@ -441,6 +442,7 @@ nav a{
     color:white;
     text-decoration:none;
     margin-bottom:12px;
+    font-size:20px;
     transition:0.3s;
 }
 
@@ -455,4 +457,7 @@ nav a{
     font-size:14px;
 }
 
+.footer-box:first-child p{
+    max-width:450px;
+}
 
