@@ -349,13 +349,6 @@ nav a{
     transition:0.3s;
 }
 
-footer{
-    background:#0b5d3b;
-    color:white;
-    text-align:center;
-    padding:30px;
-}
-
 .markets{
     padding:80px 20px;
     background:#ffffff;
@@ -410,6 +403,28 @@ footer{
 
 .whatsapp-float img:hover{
     transform:scale(1.1);
+}
+
+footer{
+    background:#0b5d3b;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+
+.footer-links{
+    margin:15px 0;
+}
+
+.footer-links a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:500;
+}
+
+.footer-links a:hover{
+    color:#d4a017;
 }
 
 
