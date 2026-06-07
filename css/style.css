@@ -579,3 +579,15 @@ nav a{
     color:#555;
 }
 
+.info-row{
+    display:flex;
+    gap:40px;
+    padding:60px 8%;
+    align-items:flex-start;
+}
+
+.packaging,
+.specifications{
+    flex:1;
+    padding:0;
+}
