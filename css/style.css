@@ -457,4 +457,24 @@ nav a{
     font-size:20px;
 }
 
+/* =========================
+   PRODUCTS PAGE BANNER
+========================= */
+
+.products-banner{
+    background:#0b5d3b;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.products-banner h1{
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.products-banner p{
+    font-size:22px;
+    margin:0;
+}
 
