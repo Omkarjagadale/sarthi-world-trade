@@ -405,26 +405,53 @@ nav a{
     transform:scale(1.1);
 }
 
-footer{
+.footer{
     background:#0b5d3b;
     color:white;
-    text-align:center;
-    padding:30px 20px;
+    margin-top:80px;
 }
 
-.footer-links{
-    margin:15px 0;
+.footer-container{
+    max-width:1200px;
+    margin:auto;
+    padding:50px 20px;
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
 }
 
-.footer-links a{
+.footer-box{
+    flex:1;
+}
+
+.footer-box h3{
+    color:#d4a017;
+    margin-bottom:20px;
+    font-size:24px;
+}
+
+.footer-box p{
+    line-height:1.8;
+    margin-bottom:10px;
+}
+
+.footer-box a{
+    display:block;
     color:white;
     text-decoration:none;
-    margin:0 15px;
-    font-weight:500;
+    margin-bottom:12px;
+    transition:0.3s;
 }
 
-.footer-links a:hover{
+.footer-box a:hover{
     color:#d4a017;
+}
+
+.footer-bottom{
+    border-top:1px solid rgba(255,255,255,0.2);
+    text-align:center;
+    padding:20px;
+    font-size:14px;
 }
 
 
