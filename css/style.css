@@ -458,6 +458,12 @@ nav a{
     transition:0.3s;
 }
 
+.footer-box:first-child{
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+}
+
 .footer-box a:hover{
     color:#d4a017;
 }
