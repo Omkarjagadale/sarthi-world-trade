@@ -538,3 +538,44 @@ nav a{
     border-color:#0b5d3b;
 }
 
+/* PRODUCT SPECIFICATIONS */
+.specifications{
+    padding:80px 8%;
+}
+
+.specifications h2{
+    text-align:center;
+    color:#0b5d3b;
+    font-size:48px;
+    margin-bottom:40px;
+}
+
+.spec-table{
+    max-width:900px;
+    margin:auto;
+    background:#fff;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+.spec-row{
+    display:flex;
+    justify-content:space-between;
+    padding:18px 25px;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.spec-row:last-child{
+    border-bottom:none;
+}
+
+.spec-row span:first-child{
+    font-weight:700;
+    color:#0b5d3b;
+}
+
+.spec-row span:last-child{
+    color:#555;
+}
+
