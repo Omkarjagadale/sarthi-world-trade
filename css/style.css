@@ -544,6 +544,22 @@ nav a{
     transition:0.3s;
 }
 
+.pack-box h3{
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+}
+
+.pack-box h3::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #d4a017;
+    margin: 10px auto 0;
+    border-radius: 5px;
+}
+
 .pack-box:hover{
     transform:translateY(-5px);
     border-color:#0b5d3b;
