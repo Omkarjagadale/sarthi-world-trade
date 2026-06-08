@@ -602,3 +602,33 @@ nav a{
     flex:1;
     padding:0;
 }
+
+.packaging-benefits{
+    margin-top:30px;
+    text-align:left;
+}
+
+.packaging-benefits h3{
+    font-size:28px;
+    color:#006241;
+    margin-bottom:20px;
+}
+
+.packaging-benefits ul{
+    list-style:none;
+    padding:0;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
+
+.packaging-benefits li{
+    background:#fff;
+    padding:15px 20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+    font-size:16px;
+    font-weight:500;
+}
+
+
