@@ -655,6 +655,7 @@ nav a{
     padding:30px;
     border-radius:12px;
     box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    border-top:4px solid #d4a017;
 }
 
 .quote-form h2{
@@ -695,8 +696,24 @@ nav a{
     font-weight:600;
     cursor:pointer;
     transition:0.3s;
+    width:100%;
 }
 
 .quote-form button:hover{
     background:#d4a017;
+}
+
+.name-row{
+    display:flex;
+    gap:15px;
+}
+
+.name-row input{
+    flex:1;
+}
+.quote-text{
+    text-align:center;
+    color:#666;
+    margin-bottom:20px;
+    font-size:15px;
 }
