@@ -647,4 +647,56 @@ nav a{
     font-weight:500;
 }
 
+/* Quote Form */
 
+.quote-form{
+    margin-top:40px;
+    background:#ffffff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+.quote-form h2{
+    text-align:center;
+    color:#0b5d3b;
+    margin-bottom:25px;
+}
+
+.quote-form form{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.quote-form input,
+.quote-form textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #dcdcdc;
+    border-radius:8px;
+    font-size:15px;
+    font-family:inherit;
+}
+
+.quote-form input:focus,
+.quote-form textarea:focus{
+    outline:none;
+    border-color:#0b5d3b;
+}
+
+.quote-form button{
+    background:#0b5d3b;
+    color:white;
+    border:none;
+    padding:14px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.quote-form button:hover{
+    background:#d4a017;
+}
