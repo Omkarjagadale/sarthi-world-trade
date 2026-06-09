@@ -1,6 +1,7 @@
 body{
     margin:0;
     font-family:Arial, sans-serif;
+    zoom: 0.75;
 }
 
 header{
@@ -717,6 +718,7 @@ nav a{
     margin-bottom:20px;
     font-size:15px;
 }
+<<<<<<< HEAD
 
 /* ABOUT PAGE */
 
@@ -808,3 +810,5 @@ nav a{
     line-height:1.8;
     margin:0;
 }
+=======
+>>>>>>> 4fcd8ef57935ab61fb597f52bc71efc5487d6167
