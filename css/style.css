@@ -486,10 +486,20 @@ nav a{
 ========================= */
 
 .products-banner{
-    background:#0b5d3b;
+    background:
+        linear-gradient(
+            rgba(11,93,59,0.75),
+            rgba(11,93,59,0.75)
+        ),
+        url("../images/about-company.png");
+
+    background-size:cover;
+    background-position:center;
+
     color:white;
     text-align:center;
-    padding:50px 20px;
+
+    padding:100px 20px;
 }
 
 .products-banner h1{
@@ -718,7 +728,6 @@ nav a{
     margin-bottom:20px;
     font-size:15px;
 }
-<<<<<<< HEAD
 
 /* ABOUT PAGE */
 
@@ -810,5 +819,36 @@ nav a{
     line-height:1.8;
     margin:0;
 }
-=======
->>>>>>> 4fcd8ef57935ab61fb597f52bc71efc5487d6167
+
+.why-choose{
+    padding:20px 8% 80px;
+}
+
+.choose-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.choose-card{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.choose-card:hover{
+    transform:translateY(-5px);
+}
+
+.choose-card h3{
+    color:#0b5d3b;
+    margin-bottom:15px;
+}
+
+.choose-card p{
+    color:#555;
+    line-height:1.7;
+}
