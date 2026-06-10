@@ -1181,4 +1181,23 @@ nav{
     text-align:left;
 }
 
+.info-row{
+    flex-direction:column;
+    gap:30px;
+}
+
+.packaging-grid{
+    grid-template-columns:1fr;
+}
+
+.packaging-benefits ul{
+    grid-template-columns:1fr;
+}
+
+.spec-row{
+    flex-direction:column;
+    gap:8px;
+}
+
+
 }
