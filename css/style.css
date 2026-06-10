@@ -862,8 +862,8 @@ nav a{
 .about-cta{
     background:
         linear-gradient(
-            rgba(11,93,59,0.80),
-            rgba(11,93,59,0.80)
+            rgba(10,42,102,0.80),
+            rgba(10,42,102,0.80)
         ),
         url("../images/footer-cta.png");
 
