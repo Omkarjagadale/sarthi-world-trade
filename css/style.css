@@ -1020,7 +1020,7 @@ nav a{
 }
 
 .map-section iframe{
-    width:100%;
+    max-width:1800px;
     height:250px;
     border:none;
     border-radius:12px;
