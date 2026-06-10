@@ -1135,17 +1135,11 @@ nav{
 }
 
 .footer-container{
-    grid-template-columns:1fr 1fr;
-    gap:10px;
-}
-
-.footer-box:first-child{
-    grid-column:1 / -1;
+    grid-template-columns:1fr;
 }
 
 .footer-box{
     text-align:left;
-    justify-self:start;
 }
 
 }
