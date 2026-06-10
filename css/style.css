@@ -1104,4 +1104,10 @@ nav{
     line-height:1.2;
 }
 
+.section-title span::before,
+.section-title span::after{
+    width:40px;
+    margin:0 8px;
+}
+
 }
