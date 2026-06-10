@@ -905,3 +905,48 @@ nav a{
     opacity:0.9;
 }
 
+.contact-banner{
+    background:
+        linear-gradient(
+            rgba(11,93,59,0.65),
+            rgba(11,93,59,0.65)
+        ),
+        url("../images/contact-banner.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    text-align:center;
+    color:white;
+
+    padding:120px 20px;
+}
+
+.contact-banner h1{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+.contact-banner p{
+    font-size:24px;
+}
+
+.contact-info{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    padding:80px 8%;
+}
+
+.info-card{
+    background:#fff;
+    padding:30px;
+    text-align:center;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.info-card h3{
+    color:#0b5d3b;
+    margin-bottom:15px;
+}
