@@ -1169,4 +1169,10 @@ nav{
     padding:40px 5%;
 }
 
+.choose-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+}
+
+
 }
