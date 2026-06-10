@@ -1071,4 +1071,13 @@ nav{
     text-align: center;
 }
 
+.hero{
+    height: auto;
+    min-height: 500px;
+}
+
+.hero-content{
+    padding: 30px 20px;
+}
+
 }
