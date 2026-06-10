@@ -1079,5 +1079,10 @@ nav{
 .hero-content{
     padding: 30px 20px;
 }
+.stats-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+}
 
 }
