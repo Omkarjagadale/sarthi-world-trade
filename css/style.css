@@ -1135,14 +1135,12 @@ nav{
 }
 
 .footer-container{
-    grid-template-columns:1fr;
+    grid-template-columns:1fr 1fr;
+    gap:20px;
 }
 
-.footer-box:nth-child(2),
-.footer-box:nth-child(3){
-    display:inline-block;
-    width:48%;
-    vertical-align:top;
+.footer-box:first-child{
+    grid-column:1 / -1;
 }
 
 }
