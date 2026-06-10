@@ -1025,4 +1025,10 @@ nav a{
     border-radius:12px;
     box-shadow:0 5px 15px rgba(0,0,0,0.08);
     display:block;
+    transition:0.3s;
+}
+
+.map-section:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.12);
 }
