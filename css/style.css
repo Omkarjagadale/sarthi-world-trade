@@ -800,7 +800,7 @@ nav a{
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap:30px;
-    max-width:1200px;
+    max-width:1800px;
     margin:auto;
 }
 
