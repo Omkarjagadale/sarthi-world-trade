@@ -1175,4 +1175,10 @@ nav{
 }
 
 
+.spec-row{
+    flex-direction:column;
+    gap:8px;
+    text-align:left;
+}
+
 }
