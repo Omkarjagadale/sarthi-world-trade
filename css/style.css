@@ -1199,5 +1199,22 @@ nav{
     gap:8px;
 }
 
+.contact-info{
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.info-card{
+    padding:20px;
+}
+
+.info-card p,
+.info-card a{
+    word-break:break-word;
+}
+
+.contact-benefits{
+    grid-template-columns:1fr;
+}
 
 }
