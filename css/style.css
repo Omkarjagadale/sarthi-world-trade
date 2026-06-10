@@ -1090,4 +1090,9 @@ nav{
     display:none;
 }
 
+.product-grid{
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
 }
