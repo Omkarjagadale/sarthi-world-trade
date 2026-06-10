@@ -69,22 +69,25 @@
         <h2>Get In Touch</h2>
     </div>
 
-    <form class="contact-form">
+    <form class="contact-form"
+      action="https://formsubmit.co/info@sarthiworldtrade.com"
+      method="POST">
+        
+        <input type="hidden" name="_captcha" value="false">
 
-        <input type="text" placeholder="Full Name" required>
+        <input type="text" name="full_name" placeholder="Full Name" required>
 
-        <input type="email" placeholder="Email Address" required>
+        <input type="email" name="email" placeholder="Email Address" required>
 
-        <input type="text" placeholder="Country">
+        <input type="text" name="country" placeholder="Country">
 
-        <input type="text" placeholder="Product Required">
+        <input type="text" name="product" placeholder="Product Required">
 
-        <textarea placeholder="Your Message" rows="6"></textarea>
+        <textarea name="message" placeholder="Your Message" rows="6"></textarea>
 
         <button type="submit">
             Send Inquiry
         </button>
-
     </form>
 
 </section>
