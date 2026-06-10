@@ -421,7 +421,8 @@ nav a{
 .footer{
     background:#0b5d3b;
     color:white;
-    margin-top:50px;
+    margin-top:0;
+    padding-top:0;
 }
 
 .footer-container{
