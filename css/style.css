@@ -428,8 +428,8 @@ nav a{
 .footer-container{
     max-width:1800px;
     margin:auto;
-    padding:35px 20px;
-
+    padding:35px 40px;
+    width:100%;
     display:grid;
     grid-template-columns: 2fr 1fr 1fr;
     gap:80px;
