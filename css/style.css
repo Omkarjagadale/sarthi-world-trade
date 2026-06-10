@@ -1136,8 +1136,13 @@ nav{
 
 .footer-container{
     grid-template-columns:1fr;
-    gap:30px;
-    text-align:center;
+}
+
+.footer-box:nth-child(2),
+.footer-box:nth-child(3){
+    display:inline-block;
+    width:48%;
+    vertical-align:top;
 }
 
 }
