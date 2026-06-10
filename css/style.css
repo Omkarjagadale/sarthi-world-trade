@@ -1114,4 +1114,8 @@ nav{
     display:block;
 }
 
+.about-divider{
+    display:none;
+}
+
 }
