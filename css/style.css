@@ -991,3 +991,20 @@ nav a{
 .contact-form button:hover{
     background:#08452c;
 }
+
+.contact-benefits{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    padding:0 8% 80px;
+}
+
+.benefit-card{
+    background:#ffffff;
+    padding:25px;
+    text-align:center;
+    border-radius:10px;
+    font-weight:600;
+    color:#0b5d3b;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
