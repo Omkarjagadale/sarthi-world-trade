@@ -1163,4 +1163,10 @@ nav{
     height:auto;
 }
 
+.about-company{
+    flex-direction:column;
+    gap:30px;
+    padding:40px 5%;
+}
+
 }
