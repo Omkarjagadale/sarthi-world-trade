@@ -935,7 +935,7 @@ nav a{
     display:grid;
     grid-template-columns:repeat(3,1fr);
     gap:25px;
-    padding:80px 8%;
+    padding:80px 5%;
 }
 
 .info-card{
