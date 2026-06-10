@@ -1112,6 +1112,7 @@ nav{
 
 .about-why{
     display:block;
+    padding:40px 5% 30px;
 }
 
 .about-divider{
@@ -1119,7 +1120,7 @@ nav{
 }
 
 .about-box{
-    margin-bottom:30px;
+    margin-bottom:80px;
 }
 
 .market-grid{
