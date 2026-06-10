@@ -1128,4 +1128,10 @@ nav{
     gap:15px;
 }
 
+.footer-logo img{
+    max-width:250px;
+    width:100%;
+    height:auto;
+}
+
 }
