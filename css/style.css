@@ -1,7 +1,6 @@
 body{
     margin:0;
     font-family:Arial, sans-serif;
-    zoom: 0.90;
 }
 
 header{
@@ -123,7 +122,8 @@ nav a{
 
 .hero{
     background:url('../images/hero-banner.png');
-    background-size:cover;
+    background-size:contain;
+    background-repeat:no-repeat;
     background-position:center;
     min-height:650px;
     display:flex;
