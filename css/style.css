@@ -1044,3 +1044,19 @@ nav a{
     color: inherit;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+
+header .container{
+    flex-direction: column;
+    gap: 15px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+}
