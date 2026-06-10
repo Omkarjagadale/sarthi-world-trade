@@ -1148,7 +1148,8 @@ nav{
 }
 
 .whatsapp-float{
-    right:5px;
+    right:15px !important;
+    bottom:15px !important;
 }
 
 .whatsapp-float img{
