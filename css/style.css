@@ -1059,4 +1059,16 @@ nav{
     gap: 15px;
 }
 
+.hero-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+.hero-buttons a{
+    width: 90%;
+    text-align: center;
+}
+
 }
