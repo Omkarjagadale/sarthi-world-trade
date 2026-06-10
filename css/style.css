@@ -895,3 +895,24 @@ nav a{
     opacity:0.9;
 }
 
+.footer-cta{
+    text-align:center;
+    padding:50px 20px;
+    border-bottom:1px solid rgba(255,255,255,0.15);
+}
+
+.footer-cta h2{
+    color:white;
+    font-size:42px;
+    margin-bottom:25px;
+}
+
+.footer-cta-btn{
+    display:inline-block;
+    background:#d4a017;
+    color:white;
+    text-decoration:none;
+    padding:15px 35px;
+    border-radius:8px;
+    font-weight:600;
+}
