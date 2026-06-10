@@ -1099,4 +1099,9 @@ nav{
     height:140px;
 }
 
+.products .section-title h2{
+    font-size:42px;
+    line-height:1.2;
+}
+
 }
