@@ -1045,6 +1045,11 @@ nav a{
     text-decoration: none;
 }
 
+html,
+body{
+    overflow-x: hidden;
+}
+
 @media (max-width: 768px) {
 
 header .container{
