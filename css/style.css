@@ -862,9 +862,12 @@ nav a{
     background:#0b5d3b;
     color:white;
     text-align:center;
-    padding:80px 20px;
-    margin-top:50px;
+    padding:60px 20px;
+    margin-top:30px;
+    margin-bottom:0;
+    border-bottom:3px solid #d4a017;
 }
+
 
 .about-cta h2{
     font-size:42px;
