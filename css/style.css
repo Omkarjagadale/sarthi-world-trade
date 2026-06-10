@@ -1122,6 +1122,10 @@ nav{
     margin-bottom:80px;
 }
 
+.why-box{
+    margin-bottom:80px;
+}
+
 .market-grid{
     grid-template-columns:1fr 1fr;
     gap:15px;
