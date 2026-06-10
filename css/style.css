@@ -1136,7 +1136,7 @@ nav{
 
 .footer-container{
     grid-template-columns:1fr 1fr;
-    gap:20px;
+    gap:10px;
 }
 
 .footer-box:first-child{
