@@ -1095,4 +1095,8 @@ nav{
     gap: 15px;
 }
 
+.product-card img{
+    height:140px;
+}
+
 }
