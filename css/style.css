@@ -422,12 +422,13 @@ nav a{
     background:#0b5d3b;
     color:white;
     margin-top:40px;
+    
 }
 
 .footer-container{
     max-width:1800px;
     margin:auto;
-    padding:35px 20px;
+    padding:100px 0;
 
     display:grid;
     grid-template-columns: 2fr 1fr 1fr;
